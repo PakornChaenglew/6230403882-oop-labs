@@ -1,4 +1,4 @@
-Name = str(input("Enter a student name:"))
+name = str(input("Enter a student name:"))
 
 mid = False
 final = False
