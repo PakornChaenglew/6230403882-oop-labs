@@ -33,3 +33,4 @@ if __name__ == '__main__':
     print(Numbers.display_factor(8))
     print(Numbers.is_valid_divisor(2))
     print(Numbers.is_valid_divisor(0))
+    
