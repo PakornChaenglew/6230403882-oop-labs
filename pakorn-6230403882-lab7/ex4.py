@@ -6,9 +6,10 @@ class Numbers:
 
     def add(self):
         sum = self.number1 + self.number2
-        return sum
+        return f"{sum} \n {Numbers.display(self)}"
 
     def display(self):
+        return f"{self.number1} and {self.number2}"
 
     @classmethod
     def display_factor(cls, number1):
