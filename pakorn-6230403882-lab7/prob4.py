@@ -7,6 +7,8 @@ class Numbers:
     def add(self):
         sum = self.number1 + self.number2
         return sum
+    
+    def display(self):
 
     @classmethod
     def display_factor(cls, number1):
