@@ -1,4 +1,6 @@
-class Shape:
+from abc import *
+class Shape(ABC):
+    @abstractmethod
     def __init__(self, color):
         self.color = color
 
